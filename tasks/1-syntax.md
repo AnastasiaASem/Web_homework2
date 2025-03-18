@@ -11,5 +11,4 @@ import { getWeekends } from '../solutions/1-syntax.js'
 // Возвращаемое значение не демонстрируем, так как это равносильно ответу
 getWeekends();
 getWeekends('long'); // Аналог вызова без аргументов (long — формат по умолчанию)
-getWeekends('short'); // Вызов вернёт массив с короткими значениями
-```
+getWeekends('short'); // Вызов вернёт массив с короткими зн
