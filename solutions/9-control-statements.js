@@ -8,7 +8,7 @@ export default function getTotalAmount (wallet, currency){
         let [currentСurrency, currentSumma ] = element.split(' ');
 
         if (currentСurrency  === currency){
-            resultSumma += currentSumma;
+            resultSumma += Number(currentSumma);
         }
     }
 

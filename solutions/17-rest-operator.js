@@ -8,7 +8,7 @@ export const getMax = (array) =>{
     let maximal = first;
 
     for (let element of rest){
-        if(element > maximal){s
+        if(element > maximal){
             maximal = element;
         }
     }
